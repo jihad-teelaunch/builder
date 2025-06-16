@@ -1,0 +1,129 @@
+.container {
+    display: flex;
+    width: 100%;
+
+
+}
+
+.option_wrapper{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: start; /* vertical alignment */
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.subLocation {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.subLocationSettings {
+    margin-left: 6%;
+    display: flex;
+    flex-direction: column;
+}
+
+.offset_wrapper {
+margin-left: 20px;
+}
+
+.mockup_container {
+     flex: 1;
+
+}
+.mockup_container_wrapper {
+    position: relative;
+}
+
+.image_container_builder {
+    width: 100%;
+    margin: 1%;
+    aspect-ratio: 1;
+    background-color: antiquewhite;
+    position: relative;
+
+}
+
+.basic_btn {
+    padding: 10px 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #3498db; /* Blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.offset_btn {
+    padding: 5px 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: cadetblue; /* Blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.preview_container {
+
+}
+
+.preview_image {
+    width: 100%;
+}
+
+.upload_button_container {
+    position: absolute;
+    background-color: #F4F5FA;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+    0 1px 2px rgba(0, 0, 0, 0.14);
+    border-radius: 2%;
+    backgroundColor:'#F4F5FA';
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.upload_button {
+    display: flex;
+    flex-direction: column; /* stack items vertically */
+    justify-content: center; /* center items vertically */
+    align-items: center;
+}
+
+.upload_button_input_container {
+    position: absolute;
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+.upload_input {
+    color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+
+
+}
+
+.selected_image {
+    position: absolute;
+    top:0;
+    left:0;
+    object-fit: contain;
+    object-position: center top;
+
+}
+

@@ -1,0 +1,15 @@
+.main_screen {
+    display: flex;
+    flex: 1;
+    height: 100vh;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-evenly;
+}

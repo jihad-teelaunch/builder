@@ -822,7 +822,7 @@ export default function Home() {
                    <img className={styles.upload_button_input_container} src={data.url}/>
                    <div className={styles.upload_button_container} style={{width:data.width +"%",height:data.height+"%",left:data.left+"%",top:data.top+"%"}}>
                        <div className={styles.upload_button} >
-                           <img className={styles.selected_image} src={file}  ></img>
+                           <img className={styles.selected_image}  src={file}  ></img>
                            <label>  Your Design
                                <input type="file" accept="image/*" style={{   width:'100%',height:'100%'}} className={styles.upload_input} onClick={clickOnUploadButton}></input>
                            </label>
